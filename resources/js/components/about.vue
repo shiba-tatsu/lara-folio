@@ -7,7 +7,8 @@
 				<li>JavaScript, Jquery, Vue.js</li>
 				<li>Ruby, Ruby on Rails</li>
 				<li>HTML5, CSS3, Sass, Bootstrap4</li>
-				<li>AWS, heroku, CircleCI</li>
+				<li>AWS, heroku, GitHub, CircleCI</li>
+				<li>MySQL, PostgreSQL</li>
 			</ul>
 		</div>
 		<div class="about__right">
@@ -31,7 +32,7 @@
 		ul{
 			list-style-type: circle;
 			font-size: 22px;
-			margin-left: 18px;
+			margin-left: 32px;
 			li{
 				margin-bottom: 8px;
 			}
