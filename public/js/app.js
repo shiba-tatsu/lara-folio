@@ -1911,7 +1911,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".about {\n  margin-top: 50px;\n  margin-left: 170px;\n  margin-right: 170px;\n  display: flex;\n  justify-content: space-around;\n}\n.about__left {\n  font-size: 40px;\n}\n.about__left h6 {\n  margin-bottom: 5px;\n}\n.about__left ul {\n  list-style-type: circle;\n  font-size: 22px;\n  margin-left: 18px;\n}\n.about__left ul li {\n  margin-bottom: 8px;\n}\n.about__right img {\n  height: 200px;\n  width: 200px;\n}", ""]);
+exports.push([module.i, ".about {\n  margin-top: 50px;\n  margin-left: 170px;\n  margin-right: 170px;\n  display: flex;\n  justify-content: space-around;\n}\n.about__left {\n  font-size: 40px;\n}\n.about__left h6 {\n  margin-bottom: 5px;\n}\n.about__left ul {\n  list-style-type: circle;\n  font-size: 22px;\n  margin-left: 32px;\n}\n.about__left ul li {\n  margin-bottom: 8px;\n}\n.about__right img {\n  height: 200px;\n  width: 200px;\n}", ""]);
 
 // exports
 
@@ -1949,7 +1949,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".title {\n  text-align: center;\n  font-size: 30px;\n  letter-spacing: 15px;\n  font-family: \"fantasy\";\n}\n.worksList {\n  margin-top: 50px;\n  margin-left: 170px;\n  margin-right: 170px;\n  display: flex;\n  justify-content: space-around;\n}\n.worksList__left {\n  font-size: 66px;\n}\n.worksList__right img {\n  height: 200px;\n  width: 200px;\n}", ""]);
+exports.push([module.i, ".title {\n  text-align: center;\n  font-size: 30px;\n  letter-spacing: 15px;\n  font-family: Verdana, sans-serif;\n  color: #444444;\n}\n.worksList {\n  margin-top: 50px;\n  margin-left: 170px;\n  margin-right: 170px;\n  display: flex;\n  justify-content: space-between;\n}\n.worksList__left img {\n  height: 400px;\n  width: 500px;\n}\n.worksList__right {\n  font-size: 32px;\n}", ""]);
 
 // exports
 
@@ -20334,7 +20334,9 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("li", [_vm._v("HTML5, CSS3, Sass, Bootstrap4")]),
           _vm._v(" "),
-          _c("li", [_vm._v("AWS, heroku, CircleCI")])
+          _c("li", [_vm._v("AWS, heroku, GitHub, CircleCI")]),
+          _vm._v(" "),
+          _c("li", [_vm._v("MySQL, PostgreSQL")])
         ])
       ]),
       _vm._v(" "),
@@ -20442,13 +20444,25 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("div", { staticClass: "worksList" }, [
         _c("div", { staticClass: "worksList__left" }, [
-          _c("h5", [_vm._v("Tatsuya's")]),
-          _vm._v(" "),
-          _c("h5", [_vm._v("Portfolio")])
+          _c("img", { attrs: { src: "" } })
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "worksList__right" }, [
+          _c("h5", [_vm._v("Test")]),
+          _vm._v(" "),
+          _c("h5", [_vm._v("Test")])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "worksList" }, [
+        _c("div", { staticClass: "worksList__left" }, [
           _c("img", { attrs: { src: "" } })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "worksList__right" }, [
+          _c("h5", [_vm._v("Test")]),
+          _vm._v(" "),
+          _c("h5", [_vm._v("Test")])
         ])
       ])
     ])
