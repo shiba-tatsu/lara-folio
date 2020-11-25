@@ -28,7 +28,7 @@
 	font-size: 30px;
 	letter-spacing: 15px;
 	font-family: Verdana, sans-serif;
-	color: #666666;
+	color: #444444;
 }
 .worksList{
 	margin-top: 50px;

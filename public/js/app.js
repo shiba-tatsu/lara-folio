@@ -1949,7 +1949,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".title {\n  text-align: center;\n  font-size: 30px;\n  letter-spacing: 15px;\n  font-family: Verdana, sans-serif;\n  color: #666666;\n}\n.worksList {\n  margin-top: 50px;\n  margin-left: 170px;\n  margin-right: 170px;\n  display: flex;\n  justify-content: space-between;\n}\n.worksList__left img {\n  height: 400px;\n  width: 500px;\n}\n.worksList__right {\n  font-size: 32px;\n}", ""]);
+exports.push([module.i, ".title {\n  text-align: center;\n  font-size: 30px;\n  letter-spacing: 15px;\n  font-family: Verdana, sans-serif;\n  color: #444444;\n}\n.worksList {\n  margin-top: 50px;\n  margin-left: 170px;\n  margin-right: 170px;\n  display: flex;\n  justify-content: space-between;\n}\n.worksList__left img {\n  height: 400px;\n  width: 500px;\n}\n.worksList__right {\n  font-size: 32px;\n}", ""]);
 
 // exports
 
