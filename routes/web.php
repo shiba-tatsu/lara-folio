@@ -18,3 +18,10 @@ Route::get('/', function () {
 Route::get('/{any}', function () {
     return view('index');
 })->where('any','.*');
+
+Route::post('contact/confirm', 'ContactController@confirm')->name('contacts.confirm');
+Route::post('contact/complete', 'ContactController@complete')->name('contacts.complete');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

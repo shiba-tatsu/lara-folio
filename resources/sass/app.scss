@@ -1,3 +1,16 @@
-@import "header";
-@import "reset";
-@import "footer"
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+//@import '~bootstrap/scss/bootstrap';
+@import 'about';
+@import 'confirm';
+@import 'contact';
+@import 'footer';
+@import 'header';
+@import 'reset';
+@import 'top';
+@import 'works';

@@ -8,6 +8,12 @@
 </head>
 <body>
 <div id="app">
+  @if(Session::has('flash_message'))
+      <div class="alert alert-success">
+          {{ session('flash_message') }}
+      </div>
+  @endif
+  
   <header>
     <ul class="header-ul">
       <li>
@@ -37,9 +43,7 @@
     <router-view/>
   </div>
 
-  <footer>
-    test
-  </footer>
+  @include('footer')
 </div>
 
 <script src="{{ mix('js/app.js') }}"></script> 

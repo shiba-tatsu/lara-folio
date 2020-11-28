@@ -1,3 +1,179 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);.about {
+  margin-top: 50px;
+  margin-left: 170px;
+  margin-right: 170px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__left {
+  font-size: 40px;
+}
+
+.about__left h6 {
+  margin-bottom: 5px;
+}
+
+.about__left ul {
+  list-style-type: circle;
+  font-size: 22px;
+  margin-left: 32px;
+}
+
+.about__left ul li {
+  margin-bottom: 8px;
+}
+
+.about__right {
+  margin-right: 130px;
+}
+
+.about__right img {
+  height: 200px;
+  width: 200px;
+}
+
+.confirm {
+  margin-left: 170px;
+  margin-right: 170px;
+}
+
+.confirm__title {
+  text-align: center;
+  font-size: 27px;
+  font-family: Verdana, sans-serif;
+  color: #777777;
+  letter-spacing: 15px;
+  margin-bottom: 32px;
+}
+
+.confirm__precaution {
+  font-size: 18px;
+  letter-spacing: 8px;
+  color: #666666;
+  margin-bottom: 65px;
+}
+
+.confirm__precaution .circle {
+  letter-spacing: 0px;
+}
+
+.confirm__precaution .mail-address {
+  letter-spacing: 0px;
+  color: #999999;
+}
+
+.confirm__form {
+  display: flex;
+  flex-flow: column;
+}
+
+.confirm__form__text {
+  height: 40px;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-bottom: 70px;
+  color: #666666;
+}
+
+.confirm__form__body {
+  font-size: 22px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  color: #666666;
+}
+
+.confirm__form__buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.confirm__form__buttons__button {
+  margin-top: 20px;
+  background-color: #fff;
+  border: 1px solid #666666;
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  letter-spacing: 15px;
+}
+
+.confirm__form__buttons__button:hover {
+  background-color: #999999;
+}
+
+.contact {
+  margin-left: 170px;
+  margin-right: 170px;
+}
+
+.contact__title {
+  text-align: center;
+  font-size: 27px;
+  font-family: Verdana, sans-serif;
+  color: #777777;
+  letter-spacing: 15px;
+  margin-bottom: 32px;
+}
+
+.contact__precaution {
+  font-size: 18px;
+  letter-spacing: 8px;
+  color: #333333;
+  margin-bottom: 65px;
+}
+
+.contact__precaution .circle {
+  letter-spacing: 0px;
+}
+
+.contact__precaution .mail-address {
+  letter-spacing: 0px;
+  color: #999999;
+}
+
+.contact__form {
+  display: flex;
+  flex-flow: column;
+}
+
+.contact__form__text {
+  height: 40px;
+  font-size: 18px;
+  transition: all 0.6s ease;
+  border: none;
+  border-bottom: 1px solid #666666;
+  outline: 0;
+  margin-bottom: 70px;
+  color: #666666;
+}
+
+.contact__form__textarea {
+  resize: none;
+  font-size: 18px;
+  margin-bottom: 70px;
+  color: #666666;
+  outline: 0;
+}
+
+.contact__form__submit {
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid #666666;
+  border-radius: 5px;
+  width: 500px;
+  height: 50px;
+  font-size: 18px;
+  letter-spacing: 15px;
+}
+
+.contact__form__submit:hover {
+  background-color: #999999;
+}
+
 header {
   margin-top: 50px;
   height: 50px;
@@ -12,7 +188,7 @@ header .header-ul {
 
 header .header-ul .header-list {
   margin-right: 30px;
-  color: #555555;
+  color: #888888;
   text-decoration: none;
 }
 
@@ -47,5 +223,47 @@ h6 {
 
 a {
   text-decoration: none;
+}
+
+.top {
+  margin-top: 50px;
+  margin-left: 170px;
+  margin-right: 170px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top__left {
+  font-size: 66px;
+}
+
+.top__right img {
+  height: 200px;
+  width: 200px;
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 15px;
+  font-family: Verdana, sans-serif;
+  color: #444444;
+}
+
+.worksList {
+  margin-top: 50px;
+  margin-left: 170px;
+  margin-right: 170px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.worksList__left img {
+  height: 400px;
+  width: 500px;
+}
+
+.worksList__right {
+  font-size: 32px;
 }
 
