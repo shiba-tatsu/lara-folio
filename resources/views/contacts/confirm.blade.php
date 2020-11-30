@@ -29,7 +29,7 @@
 
       <div class="confirm__form__buttons">
         <button type="button" class="confirm__form__buttons__button" onclick="history.back()">戻る</button>
-        <button type="submit" class="confirm__form__buttons__button">送信する</button>
+        <button type="submit" class="confirm__form__buttons__button">送信</button>
       </div>
 		</form>
 	</div>	

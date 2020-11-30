@@ -37749,9 +37749,21 @@ var staticRenderFns = [
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "worksList__right" }, [
-          _c("h5", [_vm._v("Test")]),
+          _c("h5", { staticClass: "worksList__right__title" }, [
+            _vm._v("freesell")
+          ]),
           _vm._v(" "),
-          _c("h5", [_vm._v("Test")])
+          _c("p", { staticClass: "worksList__right__text" }, [
+            _vm._v("\n\t\t\t\tLaravelで初めて開発した個人制作物です。"),
+            _c("br"),
+            _vm._v(
+              "\n\t\t\t\tLaravelの他にはVue.js,Bootstrapを中心に扱っています。"
+            ),
+            _c("br"),
+            _vm._v(
+              "\n\t\t\t\tリアルタイムチャット機能やクレジットカード決済機能など、様々な機能を実装しています。\n\t\t\t"
+            )
+          ])
         ])
       ]),
       _vm._v(" "),
@@ -37761,9 +37773,18 @@ var staticRenderFns = [
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "worksList__right" }, [
-          _c("h5", [_vm._v("Test")]),
+          _c("h5", { staticClass: "worksList__right__title" }, [
+            _vm._v("larafolio")
+          ]),
           _vm._v(" "),
-          _c("h5", [_vm._v("Test")])
+          _c("p", { staticClass: "worksList__right__text" }, [
+            _vm._v("\n\t\t\t\tこのポートフォリオサイトになります。"),
+            _c("br"),
+            _vm._v(
+              "\n\t\t\t\tLaravelを中心に開発を行い、Vue Routerを用いてSPAにし、スタイリングはScssを用いています。"
+            ),
+            _c("br")
+          ])
         ])
       ])
     ])

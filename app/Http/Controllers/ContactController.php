@@ -19,7 +19,7 @@ class ContactController extends Controller
             'email' => $request->input('email'),
             'body' => $request->input('body'),
         ]);
-
+        
         return redirect('/contact');
         //->with('flash_message', 'お問い合わせの送信に成功しました。');
     }

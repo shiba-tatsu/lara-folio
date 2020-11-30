@@ -9,6 +9,7 @@
 	margin-top: 50px;
 	margin-left: 170px;
 	margin-right: 170px;
+	margin-bottom: 70px;
 	display: flex;
 	justify-content:space-between;
 	&__left{
@@ -18,7 +19,16 @@
 		}
 	}
 	&__right{
-		font-size: 32px;
+		margin-left: 40px;
+		line-height: 37px;
+		&__title{
+			text-align: center;
+			font-size: 32px;
+			margin-bottom: 20px;
+		}
+		&__text{
+			font-size: 20px;
+		}
 		}
 	
 }

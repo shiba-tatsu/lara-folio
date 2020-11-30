@@ -1,2 +1,13 @@
 footer {
+  .myAccount{
+    text-align:center;
+    margin-bottom: 3px;
+    font-size: 36px;
+    .myGitHub{
+      color: #990099;
+    }
+  }
+  .myName{
+    text-align:center;
+  }
 }
