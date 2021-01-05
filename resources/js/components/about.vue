@@ -12,7 +12,7 @@
 			</ul>
 		</div>
 		<div class="about__right">
-			<img src="">
+			<img src="https://laraheroherotest.s3-ap-northeast-1.amazonaws.com/tK5vuf361IY8LRDlbONTGSFoRuTA4jkRZDlvhU0B.png">
 		</div>
 	</div>
 </template>
