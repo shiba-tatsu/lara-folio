@@ -6,12 +6,16 @@
 	display: flex;
 	justify-content:space-between;
 	&__left{
-		font-size: 66px;
+		font-size: 86px;
+		letter-spacing: 5px;
+		h5{
+			margin-bottom: 40px;
+		}
 	}
 	&__right{
 		img{
-			height: 300px;
-			width: 300px;
+			height: 350px;
+			width: 350px;
 		}
 	}
 }

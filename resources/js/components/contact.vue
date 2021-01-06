@@ -1,7 +1,7 @@
 <template>
 	<div class="contact">
 		<h5 class="contact__title">お問い合わせ</h5>
-		<h6 class="contact__precaution">ご連絡は以下のフォームか、<span class="circle">(</span><span class="mail-address">example@gmail.com</span>)へとお願いいたします。</h6>
+		<h6 class="contact__precaution">ご連絡は以下のフォームか、<span class="circle">(</span><span class="mail-address">st.libra.081006@gmail.com</span>)へとお願いいたします。</h6>
 		<form method="POST" action="contact/confirm" class="contact__form">
 			<input type="hidden" name="_token" v-bind:value="csrf">
 

@@ -37670,7 +37670,7 @@ var staticRenderFns = [
       _vm._v("ご連絡は以下のフォームか、"),
       _c("span", { staticClass: "circle" }, [_vm._v("(")]),
       _c("span", { staticClass: "mail-address" }, [
-        _vm._v("example@gmail.com")
+        _vm._v("st.libra.081006@gmail.com")
       ]),
       _vm._v(")へとお願いいたします。")
     ])
@@ -37755,12 +37755,14 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("div", { staticClass: "worksList" }, [
         _c("div", { staticClass: "worksList__left" }, [
-          _c("img", {
-            attrs: {
-              src:
-                "https://laraheroherotest.s3-ap-northeast-1.amazonaws.com/ZQcblx8Tfr3V7KoX75pVSWgVJvtr93WgC5QlDwAZ.png"
-            }
-          })
+          _c("a", { attrs: { href: "http://laravel-freesell.com" } }, [
+            _c("img", {
+              attrs: {
+                src:
+                  "https://laraheroherotest.s3-ap-northeast-1.amazonaws.com/ZQcblx8Tfr3V7KoX75pVSWgVJvtr93WgC5QlDwAZ.png"
+              }
+            })
+          ])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "worksList__right" }, [
@@ -37772,11 +37774,25 @@ var staticRenderFns = [
             _vm._v("\n\t\t\t\tLaravelで初めて開発した個人制作物です。"),
             _c("br"),
             _vm._v(
-              "\n\t\t\t\tLaravelの他にはVue.js,Bootstrapを中心に扱っています。"
+              "\n\t\t\t\tフロントエンドの技術としてはVue.js,Bootstrapを中心に扱っています。"
             ),
             _c("br"),
             _vm._v(
-              "\n\t\t\t\tリアルタイムチャット機能やクレジットカード決済機能など、様々な機能を実装しています。\n\t\t\t"
+              "\n\t\t\t\tリアルタイムチャット機能やクレジットカード決済機能など、様々な機能を実装しています。"
+            ),
+            _c("br"),
+            _vm._v(" "),
+            _c("br"),
+            _vm._v("\n\t\t\t\tURL: "),
+            _c("a", { attrs: { href: "http://laravel-freesell.com" } }, [
+              _vm._v("http://laravel-freesell.com")
+            ]),
+            _c("br"),
+            _vm._v("\n\t\t\t\tGitHub: "),
+            _c(
+              "a",
+              { attrs: { href: "https://github.com/shiba-tatsu/freesell" } },
+              [_vm._v("https://github.com/shiba-tatsu/freesell")]
             )
           ])
         ])
@@ -37784,12 +37800,14 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("div", { staticClass: "worksList" }, [
         _c("div", { staticClass: "worksList__left" }, [
-          _c("img", {
-            attrs: {
-              src:
-                "https://laraheroherotest.s3-ap-northeast-1.amazonaws.com/2HfUsKf1ziAO4w1H9vDfxm1SwpeBz2pvCqEqRsQW.png"
-            }
-          })
+          _c("a", { attrs: { href: "http://3.114.28.105" } }, [
+            _c("img", {
+              attrs: {
+                src:
+                  "https://laraheroherotest.s3-ap-northeast-1.amazonaws.com/2HfUsKf1ziAO4w1H9vDfxm1SwpeBz2pvCqEqRsQW.png"
+              }
+            })
+          ])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "worksList__right" }, [
@@ -37803,7 +37821,20 @@ var staticRenderFns = [
             _vm._v(
               "\n\t\t\t\tLaravelを中心に開発を行い、Vue Routerを用いてSPAにし、スタイリングはScssを用いています。"
             ),
-            _c("br")
+            _c("br"),
+            _vm._v(" "),
+            _c("br"),
+            _vm._v("\n\t\t\t\tURL: "),
+            _c("a", { attrs: { href: "http://3.114.28.105" } }, [
+              _vm._v("http://3.114.28.105")
+            ]),
+            _c("br"),
+            _vm._v("\n\t\t\t\tGitHub: "),
+            _c(
+              "a",
+              { attrs: { href: "https://github.com/shiba-tatsu/lara-folio" } },
+              [_vm._v("https://github.com/shiba-tatsu/lara-folio")]
+            )
           ])
         ])
       ])
