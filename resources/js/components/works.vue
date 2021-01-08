@@ -21,7 +21,7 @@
 		</div>
 		<div class="worksList">
 			<div class="worksList__left">
-				<a href="http://3.114.28.105">
+				<a href="http://54.168.5.69">
 					<img src="https://laraheroherotest.s3-ap-northeast-1.amazonaws.com/2HfUsKf1ziAO4w1H9vDfxm1SwpeBz2pvCqEqRsQW.png">
 				</a>
 			</div>
@@ -31,7 +31,7 @@
 					このポートフォリオサイトになります。<br>
 					Laravelを中心に開発を行い、Vue Routerを用いてSPAにし、スタイリングはScssを用いています。<br>
 					<br>
-					URL: <a href="http://3.114.28.105">http://3.114.28.105</a><br>
+					URL: <a href="http://54.168.5.69">http://54.168.5.69</a><br>
 					GitHub: <a href="https://github.com/shiba-tatsu/lara-folio">https://github.com/shiba-tatsu/lara-folio</a>
 				</p>
 			</div>

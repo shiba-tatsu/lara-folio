@@ -37800,7 +37800,7 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("div", { staticClass: "worksList" }, [
         _c("div", { staticClass: "worksList__left" }, [
-          _c("a", { attrs: { href: "http://3.114.28.105" } }, [
+          _c("a", { attrs: { href: "http://54.168.5.69" } }, [
             _c("img", {
               attrs: {
                 src:
@@ -37825,8 +37825,8 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("br"),
             _vm._v("\n\t\t\t\tURL: "),
-            _c("a", { attrs: { href: "http://3.114.28.105" } }, [
-              _vm._v("http://3.114.28.105")
+            _c("a", { attrs: { href: "http://54.168.5.69" } }, [
+              _vm._v("http://54.168.5.69")
             ]),
             _c("br"),
             _vm._v("\n\t\t\t\tGitHub: "),
